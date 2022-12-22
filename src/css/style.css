@@ -54,6 +54,10 @@ body {
 }
 
 .image {
-  width: 1300px;
+  width: 100px;
   clip-path: url(#apple);
+}
+
+.polyline {
+  /* stroke-linejoin: round; */
 }

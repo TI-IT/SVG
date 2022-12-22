@@ -4,12 +4,7 @@ function AppleSvg() {
   return (
     <>
       <h1>Apple</h1>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-        <path d="M224 112c-8.8 0-16-7.2-16-16V80c0-44.2 35.8-80 80-80h16c8.8 0 16 7.2 16 16V32c0 44.2-35.8 80-80 80H224zM0 288c0-76.3 35.7-160 112-160c27.3 0 59.7 10.3 82.7 19.3c18.8 7.3 39.9 7.3 58.7 0c22.9-8.9 55.4-19.3 82.7-19.3c76.3 0 112 83.7 112 160c0 128-80 224-160 224c-16.5 0-38.1-6.6-51.5-11.3c-8.1-2.8-16.9-2.8-25 0c-13.4 4.7-35 11.3-51.5 11.3C80 512 0 416 0 288z" />
-      </svg>
-
       <img className="image" src={require('../images/image.JPG')} alt="" />
-
       <svg
         className="apple"
         width="1"
@@ -18,7 +13,7 @@ function AppleSvg() {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        {/* <clipPath id="apple" clipPathUnits="objectBoundingBoxs">
+        <clipPath id="apple" clipPathUnits="objectBoundingBox">
           <path
             className="apple-path"
             d="M0.5 0.21875C0.480357 0.21875 0.464286 0.204688 0.464286 0.1875V0.15625C0.464286
@@ -31,7 +26,7 @@ function AppleSvg() {
                     0.972461 0.490402 0.972461 0.472321 0.97793C0.442411 0.987109 0.394196 1 0.357366
           1C0.178571 1 0 0.8125 0 0.5625Z"
           />
-        </clipPath> */}
+        </clipPath>
       </svg>
     </>
   );

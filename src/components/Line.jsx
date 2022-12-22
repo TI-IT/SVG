@@ -5,7 +5,7 @@ function Line() {
     x2: 350,
     y2: 250,
     stroke: 'black',
-    strokeWidth: 10, //не обязательно
+    strokeWidth: 20, //не обязательно
   };
   return (
     <>
