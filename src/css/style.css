@@ -14,3 +14,12 @@ body {
   border: 1px solid #000;
   margin-bottom: 50px;
 }
+
+.svg-text {
+  overflow: visible;
+}
+
+.text {
+  font-size: 35px;
+  fill: #000;
+}
