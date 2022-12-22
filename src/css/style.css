@@ -23,3 +23,37 @@ body {
   font-size: 35px;
   fill: #000;
 }
+.rect {
+  stroke: rebeccapurple;
+  stroke-width: 20px;
+  fill: none;
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+  transition: all 2s ease-in-out;
+}
+
+.svg-rect:hover .rect,
+.svg-circle:hover .circle,
+.apple:hover .apple-path {
+  stroke-dashoffset: 0;
+}
+
+.circle {
+  transition: all 2s ease-in-out;
+  stroke-dasharray: 314;
+  stroke-dashoffset: 314;
+}
+
+.apple-path {
+  fill: none;
+  stroke: brown;
+  stroke-width: 10px;
+  transition: all 2s ease-in-out;
+  stroke-dasharray: 1800;
+  stroke-dashoffset: 1800;
+}
+
+.image {
+  width: 1300px;
+  clip-path: url(#apple);
+}
